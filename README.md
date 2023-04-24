@@ -2,7 +2,7 @@
 
 This full-stack program was created for the course, CIS-2750 (Software Systems Development & Integration), taught by Professor Stefan Kremer at the University of Guelph in the Winter 2023 semester.
 
-This program simulates a molecule parser that allows users to upload and view chemical spatial data files (.sdf files). The program also allows users to modify atom features in the display such as colour and radius size. This program is hosted through a python webserver and can be used through browsers.
+This program simulates a molecule parser that allows users to upload and view chemical spatial data files (.sdf files). The program also allows users to modify atom features in the display such as colour, gradient, and radius size. This program is hosted through a python webserver and can be used through browsers.
 
 ### Compilation Commands
 
