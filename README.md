@@ -27,7 +27,7 @@ Please note, you may need to modify the python library pathways inside the makef
 * molsql.py - A file Python library that creates a SQLite database and supports database operations for this project
 * index.html - A basic HTML webpage for the program
 * style.css - A CSS file to add some basic stylistic features to the webpage
-* index.js - A series of AJAX action listeners that communicate with the server.py file to perform various tasks
+* index.js - A series of AJAX action listeners that communicate with the Python webserver to perform various tasks
 * sdf-files directory - contains valid sdf files samples for testing purposes
 
 ### Video Demonstration
