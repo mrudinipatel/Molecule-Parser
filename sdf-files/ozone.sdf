@@ -1,0 +1,75 @@
+
+Marvin  07170814162D          
+
+  3  2  0  0  0  0            999 V2000
+    0.0000    0.2750    0.0000 O   0  3  0  0  0  0  0  0  0  0  0  0
+   -0.7145   -0.1375    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7145   -0.1375    0.0000 O   0  5  0  0  0  0  0  0  0  0  0  0
+  2  1  2  0  0  0  0
+  3  1  1  0  0  0  0
+M  CHG  2   1   1   3  -1
+M  END
+> <ID>
+CHEBI:25812
+
+> <NAME>
+ozone
+
+> <DEFINITION>
+An elemental molecule with formula O3. An explosive, pale blue gas (b.p. −112°C) that has a characteristic, pleasant odour, it is continuously produced in the upper atmosphere by the action of solar ultraviolet radiation on atmospheric oxygen. It is an antimicrobial agent used in the production of bottled water, as well as in the treatment of meat, poultry and other foodstuffs.
+
+> <STAR>
+3
+
+> <SYNONYM>
+Trisauerstoff; trioxygene; ozono; ozone; Ozon; O3; O3; [OO2]
+
+> <IUPAC_NAME>
+trioxygen; ozone
+
+> <FORMULA>
+O3
+
+> <MASS>
+47.99820
+
+> <MONOISOTOPIC_MASS>
+47.98474
+
+> <CHARGE>
+0
+
+> <SMILES>
+[O-][O+]=O
+
+> <INCHI>
+InChI=1S/O3/c1-3-2
+
+> <INCHIKEY>
+CBENFWSGALASAD-UHFFFAOYSA-N
+
+> <CAS_REGISTRY_NUMBER>
+10028-15-6
+
+> <GMELIN_REGISTRY_NUMBER>
+1101
+
+> <REAXYS_REGISTRY_NUMBER>
+4921393
+
+> <CHEMIDPLUS>
+10028-15-6
+
+> <MOLBASE_ACCESSION>
+931
+
+> <NIST_CHEMISTRY_WEBBOOK>
+10028-15-6
+
+> <WIKIPEDIA_ACCESSION>
+Ozone
+
+> <PUBMED_CITATION>
+10205911; 10226494; 10552743; 11029342; 11203434; 11568152; 12509241; 15598576; 15963550; 1717074; 17674823; 18250191; 18699586; 19519548; 19580672; 19723209; 19827485; 20477724; 23488636; 23501341; 23517299; 23556239; 24001808; 24176344; 24188305; 7763188; 8255146; 9202716
+
+$$$$

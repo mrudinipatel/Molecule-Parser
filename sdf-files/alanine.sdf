@@ -1,0 +1,86 @@
+
+Marvin  01110618192D          
+
+  6  5  0  0  1  0            999 V2000
+    1.8187    0.2250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1042   -0.1875    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0
+    2.5331   -0.1875    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.8187    1.0500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1042   -1.0125    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.3897    0.2250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  0  0  0  0
+  4  1  2  0  0  0  0
+  3  1  1  0  0  0  0
+  2  6  1  0  0  0  0
+  2  5  1  0  0  0  0
+M  END
+> <ID>
+CHEBI:16449
+
+> <NAME>
+alanine
+
+> <DEFINITION>
+An α-amino acid that consists of propionic acid bearing an amino substituent at position 2.
+
+> <STAR>
+3
+
+> <SECONDARY_ID>
+CHEBI:2539; CHEBI:13748; CHEBI:22277
+
+> <SYNONYM>
+Alanine; alanina; Alanin; ALA; A; 2-Aminopropionic acid; 2-Aminopropanoic acid
+
+> <IUPAC_NAME>
+alanine; 2-aminopropanoic acid
+
+> <FORMULA>
+C3H7NO2
+
+> <MASS>
+89.09322
+
+> <MONOISOTOPIC_MASS>
+89.04768
+
+> <CHARGE>
+0
+
+> <SMILES>
+CC(N)C(O)=O
+
+> <INCHI>
+InChI=1S/C3H7NO2/c1-2(4)3(5)6/h2H,4H2,1H3,(H,5,6)
+
+> <INCHIKEY>
+QNAYBMKLOCPYGJ-UHFFFAOYSA-N
+
+> <BEILSTEIN_REGISTRY_NUMBER>
+635807
+
+> <CAS_REGISTRY_NUMBER>
+302-72-7
+
+> <GMELIN_REGISTRY_NUMBER>
+2449
+
+> <REAXYS_REGISTRY_NUMBER>
+635807
+
+> <CHEMIDPLUS>
+302-72-7
+
+> <KEGG_COMPOUND_ACCESSION>
+C01401
+
+> <NIST_CHEMISTRY_WEBBOOK>
+302-72-7
+
+> <WIKIPEDIA_ACCESSION>
+Alanine
+
+> <PUBMED_CITATION>
+17439666; 22264337
+
+$$$$

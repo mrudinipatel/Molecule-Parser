@@ -1,0 +1,87 @@
+
+Marvin  06190621052D          
+
+  5  4  0  0  0  0            999 V2000
+    0.0000    0.8250    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    0.8250    0.0000    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.8250    0.0000    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000   -0.8250    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  4  1  1  0  0  0  0
+  4  2  1  0  0  0  0
+  4  3  1  0  0  0  0
+  4  5  1  0  0  0  0
+M  END
+> <ID>
+CHEBI:16183
+
+> <NAME>
+methane
+
+> <DEFINITION>
+A one-carbon compound in which the carbon is attached by single bonds to four hydrogen atoms. It is a colourless, odourless, non-toxic but flammable gas (b.p. −161°C).
+
+> <STAR>
+3
+
+> <SECONDARY_ID>
+CHEBI:6811; CHEBI:14585; CHEBI:25220
+
+> <SYNONYM>
+methyl hydride; methane; methane; Methane; Methan; metano; marsh gas; CH4
+
+> <IUPAC_NAME>
+tetrahydridocarbon; methane
+
+> <FORMULA>
+CH4
+
+> <MASS>
+16.04246
+
+> <MONOISOTOPIC_MASS>
+16.03130
+
+> <CHARGE>
+0
+
+> <SMILES>
+[H]C([H])([H])[H]
+
+> <INCHI>
+InChI=1S/CH4/h1H4
+
+> <INCHIKEY>
+VNWKTOKETHGBQD-UHFFFAOYSA-N
+
+> <BEILSTEIN_REGISTRY_NUMBER>
+1718732
+
+> <CAS_REGISTRY_NUMBER>
+74-82-8
+
+> <GMELIN_REGISTRY_NUMBER>
+59
+
+> <REAXYS_REGISTRY_NUMBER>
+1718732
+
+> <CHEMIDPLUS>
+74-82-8
+
+> <KEGG_COMPOUND_ACCESSION>
+C01438
+
+> <METACYC_ACCESSION>
+CH4
+
+> <NIST_CHEMISTRY_WEBBOOK>
+74-82-8
+
+> <WIKIPEDIA_ACCESSION>
+Methane
+
+> <PUBMED_CITATION>
+17791569; 23104415; 23353606; 23376302; 23397538; 23718889; 23739479; 23742231; 23756351; 24132456; 24161402; 24259373
+
+$$$$
