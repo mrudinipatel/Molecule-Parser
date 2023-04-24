@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+  <head>
+    <title>Molecule Parser</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+  </head>
+  <body>
+    <section id="header">
+      <br/>
+      <h1>Molecule Visualizer</h1>
+      <br/>
+    </section>
+
+    <section id="fileUpload">
+      <br />
+      <h1>File Upload</h1>
+      <br />
+      <h3>Only .sdf files can be uploaded</h3>
+      <br /><br />
+      <form id="form_id">
+        <input
+          type="file"
+          id="sdf_file"
+          name="sdf_file"
+          accept=".sdf"
+        /><br /><br/>
+        <label>Molecule name:</label>
+        <input type="text" id="mol_name" name="mol_name" maxlength="50" required/>
+        <input type="submit" id="submit" value="Upload" /><br /><br/>
+      </form>
+    </section>
+
+    <section id="database">
+      <br />
+      <h1>Select Molecules from Database</h1>
+      <h3></h3>
+      <br /><br />
+      <form action="/display" enctype="multiplart/form-data" method="GET">
+        <label for="all_mols">Select a Molecule: </label>
+        <select name="all_mols" id="all_mols">
+          <option value="No Molecule Selected">Select</option>
+        </select
+        ><br /><br />
+      </form>
+    </section>
+
+    <section id="display">
+        <br />
+        <h1>View Molecule</h1>
+        <br />
+        <h3></h3>
+        <form action="/view" enctype="multiplart/form-data" method="GET">
+          <!-- <label id="selected_name">No Molecule Selected</label> -->
+          <div id="svg_img"> </div>
+        </form><br><br>
+    </section>
+
+    <section id="rotate">
+      <br />
+      <h1>Rotate Molecule</h1>
+      <br />
+      <h3></h3>
+      <form id="rotate_form">
+        <label>x:</label>
+        <input type="text" id="x" name="x" maxlength="3" required/>
+        <label>y:</label>
+        <input type="text" id="y" name="y" maxlength="3" required/>
+        <label>z:</label>
+        <input type="text" id="z" name="z" maxlength="3" required/>
+        <input type="submit" id="submit_rotate" value="Rotate" /><br /><br/>
+      </form><br>
+    </section>
+    
+    <section id="element">
+      <br />
+      <h1>Elements Table</h1>
+      <br />
+      <h3></h3>
+      <form id="database_table">
+        <table id="element_table">
+          <tr>
+            <th>Element No.</th>
+            <th>Element Code</th>
+            <th>Element Name</th>
+            <th>Colour 1</th>
+            <th>Colour 2</th>
+            <th>Colour 3</th>
+            <th>Radius</th>
+            <th>Delete</th>
+          </tr>
+        </table><br><br>
+      </form>
+    </section>
+
+    <section id="add">
+      <br />
+      <h1>Add Elements</h1>
+      <br />
+      <h3></h3>
+      <form id="addEls">
+        <div>
+          <label id="add_label">Element Number:</label>
+          <input type="text" id="el_num" name="el_num" maxlength="10" pattern="[0-9]*" title="Please enter only digits"/><br>
+        </div>
+        <div>
+          <label id="add_label">Element Code:</label>
+          <input type="text" id="el_code" name="el_code" maxlength="10"/><br>
+        </div>
+        <div>
+          <label id="add_label">Element Name:</label>
+          <input type="text" id="el_name" name="el_name" maxlength="10"/><br>
+        </div>
+        <div>
+          <label id="add_label">Colour 1:</label>
+          <input type="text" id="c1" name="c1" maxlength="10"/><br>
+        </div>
+        <div>
+          <label id="add_label">Colour 2:</label>
+          <input type="text" id="c2" name="c2" maxlength="10"/><br>
+        </div>
+        <div>
+          <label id="add_label">Colour 3:</label>
+          <input type="text" id="c3" name="c3" maxlength="10"/><br>
+        </div>
+        <div>
+          <label id="add_label">Radius:</label>
+          <input type="text" id="radius" name="radius" maxlength="10" pattern="[0-9]*" title="Please enter only digits"/><br>
+        </div>
+        
+        <input type="submit" id="add_btn" value="Add" /><br /><br/>
+      </form>
+    </section><br><br>
+  </body>
+</html>
+
