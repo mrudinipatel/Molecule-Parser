@@ -32,6 +32,8 @@ Please note, you may need to modify the python library pathways inside the makef
 
 ### Video Demonstration
 
+https://user-images.githubusercontent.com/68040676/233890557-9f47e8e5-92ff-416e-a1c3-00367c778519.mov
+
 
 ### Future Improvements
 In the future, it would be nice to add security features to the webserver such as data encryption and user authentication to maintain user privacy and prevent the program from being exploited.
