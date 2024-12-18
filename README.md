@@ -1,10 +1,8 @@
-# Molecule-Parser
+# Molecule-Parser ⚛
 
-This full-stack program was created for the course, CIS-2750 (Software Systems Development & Integration), taught by Professor Stefan Kremer at the University of Guelph in the Winter 2023 semester.
+This full-stack program simulates a molecule visualizer that allows users to upload and view chemical spatial data files (.sdf files). The program also allows users to modify atom features in the display such as colour, gradient, and radius size. This program is hosted through a Python webserver and can be used through browsers.
 
-This program simulates a molecule parser that allows users to upload and view chemical spatial data files (.sdf files). The program also allows users to modify atom features in the display such as colour, gradient, and radius size. This program is hosted through a python webserver and can be used through browsers.
-
-### Compilation Commands
+### To Launch 🚀
 
 1. Clone/download this repository on your local computer
 2. Open a terminal window in your cloned repository.
@@ -16,7 +14,7 @@ This program simulates a molecule parser that allows users to upload and view ch
 
 Please note, you may need to modify the python library pathways inside the makefile to compile the program. You may also need to change the python version in step 5 to match the version installed on your computer. You may also change the port number as desired.
 
-### Project components
+### Project components 🧮
 
 * mol.h - A header file for mol.c file
 * mol.c - A C function library that allows basic molecule manipulation
@@ -30,10 +28,10 @@ Please note, you may need to modify the python library pathways inside the makef
 * index.js - A series of AJAX action listeners that communicate with the Python webserver to perform various tasks
 * sdf-files directory - contains valid sdf files samples for testing purposes
 
-### Video Demonstration
+### Video Demonstration 🎞
 
 https://user-images.githubusercontent.com/68040676/233890557-9f47e8e5-92ff-416e-a1c3-00367c778519.mov
 
 
-### Future Improvements
+### Future Improvements 🔮
 In the future, it would be nice to add security features to the webserver such as data encryption and user authentication to maintain user privacy and prevent the program from being exploited.
